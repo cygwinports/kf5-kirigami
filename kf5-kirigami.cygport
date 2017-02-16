@@ -1,0 +1,14 @@
+inherit kf5
+
+NAME="kf5-kirigami"
+VERSION=1.1.0
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE portable application UI framework"
+DESCRIPTION="Kirigami is KDE’s lightweight user interface framework for mobile
+and convergent applications. It allows Qt developers to easily create applications
+that run on most major mobile and desktop platforms without modification."
+SRC_URI="mirror://kde/stable/kirigami/kirigami-${VERSION}.tar.xz"
+SRC_DIR="kirigami-${VERSION}"
+
+REQUIRES="qt5-quickcontrols"
